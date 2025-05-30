@@ -60,7 +60,7 @@ const PatientsPage = () => {
       <div className="flex h-full w-full flex-col overflow-hidden rounded-sm bg-white p-8 shadow-2xl">
         <div className="mb-6 flex items-center justify-center gap-4">
           <SearchBar placeholder="Search patients..." onSearch={handleSearch} />
-
+          // TODO: remove radix dialog and use custom modal
           <Dialog.Root open={open} onOpenChange={setOpen}>
             <Dialog.Trigger asChild>
               <button
