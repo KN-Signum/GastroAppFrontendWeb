@@ -32,6 +32,7 @@ const TableRow = () => {
       </div>
       <div className="flex-1">Wyleczony</div>
       <div className="flex-1">11.05.2025</div>
+      <div className="flex-1">Crohn</div>
       <div className="flex-2">Lek X</div>
     </div>
   );
@@ -45,6 +46,7 @@ export const PatientsTable = () => {
         <div className="flex-1">{t('dashboard.table.full_name')}</div>
         <div className="flex-1">{t('dashboard.table.mayo_state')}</div>
         <div className="flex-1">{t('dashboard.table.last_visit')}</div>
+        <div className="flex-1">{t('dashboard.table.disease')}</div>
         <div className="flex-2">{t('dashboard.table.drugs')}</div>
       </div>
       <div className="text-primary-accent text-sm">
